@@ -77,7 +77,8 @@ function reverseLinkedList(linkedList) {
   linkedList.head.next = prev;
   linkedList.tail = first;
 
-  return linkedList;}
+  return linkedList;
+}
 
 // ----------------------------------------
 // Given: Singly Linked List - Do Not Edit!
